@@ -1,0 +1,45 @@
+{
+  "name": "danialpanah/mail-connect",
+  "type": "library",
+  "description": "Laravel Package for Connect to Email Using IMAP",
+  "keywords": [
+    "php email",
+    "php inbox",
+    "php imap",
+    "web service",
+    "api",
+    "laravel email",
+    "laravel mail connect"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Danial Panah",
+      "email": "me@danialrp.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DanialPanah\\MailConnect\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DanialPanah\\MailConnect\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^7.15",
+    "phpunit/phpunit": "^9.5"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DanialPanah\\MailConnect\\MailConnectServiceProvider"
+      ],
+      "aliases": {
+        "MailConnect": "DanialPanah\\MailConnect\\Facades\\MailConnect"
+      }
+    }
+  }
+}
