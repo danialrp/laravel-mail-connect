@@ -15,7 +15,8 @@
   "authors": [
     {
       "name": "Danial Panah",
-      "email": "me@danialrp.com"
+      "email": "me@danialrp.com",
+      "homepage": "https://danialrp.com"
     }
   ],
   "autoload": {
@@ -42,6 +43,5 @@
       }
     }
   },
-  "require": {
-  }
+  "require": {}
 }

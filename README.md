@@ -1,5 +1,6 @@
 # Laravel Email Connect (IMAP)
 
+[![Latest Release on Packagist](https://img.shields.io/packagist/v/danialpanah/mail-connect.svg?style=flat-square)](https://packagist.org/packages/danialpanah/mail-connect)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 - [Introduction](#introduction)
