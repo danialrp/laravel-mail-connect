@@ -41,5 +41,8 @@
         "MailConnect": "DanialPanah\\MailConnect\\Facades\\MailConnect"
       }
     }
+  },
+  "require": {
+    "ext-imap": "*"
   }
 }

@@ -6,7 +6,7 @@
  */
  
 return [
-    'email_url' => env('MAIL_CONNECT_URL', ''),
-    'email_username' => env('MAIL_CONNECT_USERNAME', ''),
-    'email_password' => env('MAIL_CONNECT_PASSWORD', '')
+    'email_url' => env('MAIL_CONNECT_URL', null),
+    'email_username' => env('MAIL_CONNECT_USERNAME', null),
+    'email_password' => env('MAIL_CONNECT_PASSWORD', null)
 ];
