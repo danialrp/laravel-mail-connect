@@ -9,13 +9,13 @@ namespace DanialPanah\MailConnect;
 
 class MailConnect
 {
-    private string $protocol;
+    public string $protocol;
 
-    private string $directory;
+    public string $directory;
 
-    private string $criteria;
+    public string $criteria;
 
-    public function openMailInbox(): array
+    public function openMailbox(): array
     {
         $mailClass = 'DanialPanah\MailConnect\Mail\\' . $this->protocol . 'Service';
         $mailService = new $mailClass;
